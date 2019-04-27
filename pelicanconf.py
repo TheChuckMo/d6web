@@ -20,14 +20,27 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('D6Engine Docs', 'https://docs.d6engine.org/'),
+    ('D6Engine GitLab', 'https://gitlab.com/TheChuckMo/d6engine'),
+    ('D6Dice Docs', 'https://d6dice.d6engine.org/'),
+    ('D6Dice PyPi', 'https://pypi.org/projects/d6dice'),
+    ('D6Dice GitLab', 'https://gitlab.com/TheChuckMo/d6dice'),
+    ('OpenD6 System Reference', 'http: // opend6.wikidot.com /'),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter.com/thechuckmo', 'https://twitter.com/thechuckmo'),)
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.sane_lists': {},
+        'markdown.extensions.admonition': {},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
 
 DEFAULT_PAGINATION = 10
 

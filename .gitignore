@@ -1,1 +1,15 @@
-.venv/
+*.log
+*.pyc
+.cache/
+.coverage
+.vscode/
+build/
+dist/
+docs/build/
+venv/
+wheelhouse/
+d6engine.egg-info/
+pip-wheel-metadata/
+/.pytest_cache/
+/d6dice.egg-info/
+/.venv/
