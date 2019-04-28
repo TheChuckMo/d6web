@@ -30,7 +30,7 @@ LINKS = (
 )
 
 # Social widget
-SOCIAL = (('twitter.com/thechuckmo', 'https://twitter.com/thechuckmo'),)
+SOCIAL = (('twitter/thechuckmo', 'https://twitter.com/thechuckmo'),)
 
 MARKDOWN = {
     'extension_configs': {
